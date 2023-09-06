@@ -1,0 +1,110 @@
+/* XS */
+h1 {
+  color: red;
+}
+
+h4 {
+  color: black;
+  align-items: center;
+}
+
+/* SM  >= 576px  */
+@media (min-width: 576px) {
+  /* h1 {
+    color: blue;
+  } */
+  .small{
+    width: 500px;
+    
+  }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px) {
+  h1 {
+    color: green;
+  }
+  h4 {
+    color: green;
+  }
+}
+
+/* LG >= 992px */
+@media (min-width: 992px) {
+  h1 {
+    color: purple;
+  }
+  h4 {
+    color: purple;
+  }
+  .small{
+    width: 700px;
+    
+  }
+}
+
+/* XL >= 1200px */
+@media (min-width: 1200px) {
+  h1 {
+    color: orange;
+  }
+  h4 {
+    color: orange;
+  }
+  .small{
+    width: 900px!;
+    
+  }
+}
+
+/* XXL >= 1400px */
+@media (min-width: 1400px) {
+  h1 {
+    color: gray;
+  }
+  h4 {
+    color: royalblue;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: gray;
+  border-color: black;
+}
+
+/* .container {
+  background-color: #ccc;
+} */
+
+.container-fluid {
+  background-color: #888;
+}
+
+.container-sm {
+  margin-bottom: 20px;
+  border: 2px solid blue;
+}
+
+.container-md {
+  margin-bottom: 20px;
+  border: 2px solid crimson;
+}
+
+.container-lg {
+  border: 2px solid chocolate;
+}
+
+.container-xl {
+  border: 2px solid green;
+}
+
+.container-xxl {
+  border: 2px solid yellow;
+}
+
+.g-col-3 {
+  border: 1px solid black;
+}
+
+/* GRID CONTAINER*/
