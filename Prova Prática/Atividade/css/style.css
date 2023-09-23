@@ -1,3 +1,23 @@
-button {
+.button-login {
+    width: 60%;
     background: orange;
+    border-color: black;
+}
+
+.redesSociais img {
+    width: 25px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.redesSociais {
+    width: auto;
+}
+
+.form-container {
+    width: 50%;
+    align-items: center;
+}
+.pessoas {
+    background-size: cover;
 }
